@@ -1,4 +1,4 @@
-# lay-out Syntax
+# lay-out Syntax Highlighting
 
 ## Description
 Sublime Text 2 Syntax Highlighting for .lay-out files.
