@@ -2,6 +2,7 @@
 
 ## Description
 Sublime Text 2 Syntax Highlighting for .lay-out files.
+[lay-out](https://github.com/CREEATION/lay-out/) is a WIP project structure visualizer.
 
 ## Installation
 1. [Install Package Control](https://packagecontrol.io/)
