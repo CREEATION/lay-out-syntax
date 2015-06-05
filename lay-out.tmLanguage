@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>lay-out</string>
+	</array>
+	<key>name</key>
+	<string>lay-out</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>First slash to indicate the beginning of the file.</string>
+			<key>match</key>
+			<string>^([^-?\s]+)</string>
+			<key>name</key>
+			<string>entity.name.tag.lay-out</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Folders.</string>
+			<key>match</key>
+			<string>^\s+([^-?\s]+)</string>
+			<key>name</key>
+			<string>string.lay-out</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.lay-out</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.lay-out</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>support.type.lay-out</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Files.</string>
+			<key>match</key>
+			<string>^\s+(-)\s([^?\s.]+)?(\.[^?\s]+)?</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comments.</string>
+			<key>match</key>
+			<string>(\?.+)</string>
+			<key>name</key>
+			<string>comment.lay-out</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.lay-out</string>
+	<key>uuid</key>
+	<string>84a8d4dc-588d-493a-ac14-f158e069113f</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: lay-out
+scopeName: source.lay-out
+fileTypes: ["lay-out"]
+uuid: 84a8d4dc-588d-493a-ac14-f158e069113f
+
+patterns:
+-
+  match: "^([^-?\\s]+)"
+  name: "entity.name.tag.lay-out"
+  comment: "First slash to indicate the beginning of the file."
+-
+  match: "^\\s+([^-?\\s]+)"
+  name: "string.lay-out"
+  comment: "Folders."
+-
+  match: "^\\s+(-)\\s([^?\\s.]+)?(\\.[^?\\s]+)?"
+  captures:
+    "1": { name: "variable.parameter.lay-out" }
+    "2": { name: "support.function.lay-out" }
+    "3": { name: "support.type.lay-out" }
+  comment: "Files."
+-
+  match: "(\\?.+)"
+  name: "comment.lay-out"
+  comment: "Comments."
