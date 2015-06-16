@@ -1,7 +1,7 @@
 # lay-out Syntax Highlighting
 
 ## Description
-Sublime Text 2 Syntax Highlighting for .lay-out files.
+Sublime Text 2 Syntax Highlighting for lay-out (`.lf`) files.
 [lay-out](https://github.com/CREEATION/lay-out/) is a WIP project structure visualizer.
 
 ## Installation

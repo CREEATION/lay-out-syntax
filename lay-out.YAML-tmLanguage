@@ -2,7 +2,7 @@
 ---
 name: lay-out
 scopeName: source.lay-out
-fileTypes: ["lay-out"]
+fileTypes: ["lf"]
 uuid: 84a8d4dc-588d-493a-ac14-f158e069113f
 
 patterns:
