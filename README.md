@@ -1,9 +1,10 @@
 # lay-out Syntax Highlighting
+## for Atom & Sublime Text
 
-## Description
-Sublime Text 2 Syntax Highlighting for lay-out (`.lf`) files.
-[lay-out](https://github.com/CREEATION/lay-out/) is a WIP project structure visualizer.
+### Description
+[Atom](https://atom.io/) & [Sublime Text](https://www.sublimetext.com/) Syntax Highlighting for lay-out (`.lf`) files.
+[lay-out](https://github.com/CREEATION/lay-out/) is a WIP static project structure visualizer.
 
-## Installation
+### Sublime Text: Install via Package Control
 1. [Install Package Control](https://packagecontrol.io/)
-2. `CTRL+SHIFT+P` or `CMD+SHIFT+P` > Package Control: Install Package > lay-out Syntax
+2. Package Control > Install Package > lay-out Syntax
