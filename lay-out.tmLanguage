@@ -2,12 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>fileTypes</key>
-	<array>
-		<string>lay-out</string>
-	</array>
 	<key>name</key>
 	<string>lay-out</string>
+	<key>scopeName</key>
+	<string>source.lay-out</string>
+	<key>fileTypes</key>
+	<array>
+		<string>lf</string>
+	</array>
+	<key>uuid</key>
+	<string>84a8d4dc-588d-493a-ac14-f158e069113f</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -59,9 +63,5 @@
 			<string>comment.lay-out</string>
 		</dict>
 	</array>
-	<key>scopeName</key>
-	<string>source.lay-out</string>
-	<key>uuid</key>
-	<string>84a8d4dc-588d-493a-ac14-f158e069113f</string>
 </dict>
 </plist>
